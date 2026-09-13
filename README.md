@@ -1,12 +1,21 @@
 # Lama Dev School Management Dashboard
 
+A Next.js dashboard interface for a school management experience, built as a frontend project and learning reference.
+
 ## Getting Started
 
-First, run the development server:
+Install dependencies and start the development server:
 
 ```bash
+npm install
 npm run dev
-# or
+```
+
+Then open `http://localhost:3000` in your browser.
+
+### Other package managers
+
+```bash
 yarn dev
 # or
 pnpm dev
@@ -14,13 +23,22 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Focus
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Responsive school management dashboard UI
+- Modern React and Next.js patterns
+- Reusable interface components
+- Practical dashboard and data-visualization layouts
+
+## Development
+
+Start editing the application from the `app` directory. The Next.js development server automatically refreshes the page as changes are made.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js documentation](https://nextjs.org/docs)
+- [Next.js Learn](https://nextjs.org/learn)
 
-- [Lama Dev Youtube Channel](https://youtube.com/lamadev) 
-- [Next.js](https://nextjs.org/learn)
+## Credits
+
+The original project concept and starter materials are based on Lama Dev's school management dashboard tutorial.
